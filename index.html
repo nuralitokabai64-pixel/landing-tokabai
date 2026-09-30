@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Мастерская мебели Tokabai. Изготовление премиальной дизайнерской мебели из массива и металла на заказ в Алматы.">
-    <title>Tokabai Design | Дизайнерская мебель на заказ</title>
+    <meta name="description" content="Мастерская мебели Tokabai. Изготовление эксклюзивной мебели из массива дерева и металла на заказ в Алматы.">
+    <title>Tokabai Studio | Дизайнерская мебель на заказ</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -13,6 +13,14 @@
     <header class="site-header">
         <div class="container header-container">
             <a href="#" class="logo">TOKABAI<span>.STUDIO</span></a>
+
+            <label for="burger-toggle" class="burger-btn" aria-label="Открыть меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <input type="checkbox" id="burger-toggle" class="burger-checkbox">
+
             <nav class="main-nav">
                 <ul class="nav-list">
                     <li><a href="#about">О нас</a></li>
@@ -28,12 +36,12 @@
         <!-- Hero Section -->
         <section id="hero" class="hero-section">
             <div class="container hero-container">
-                <div class="hero-badge">Авторская столярная мастерская</div>
-                <h1>Создаём мебель, которая превращает пространство в искусство</h1>
-                <p>Эксклюзивные обеденные зоны, гарнитуры и предметы интерьера из ценных пород дерева с гарантией 5 лет.</p>
+                <span class="hero-badge">Авторская столярная мастерская</span>
+                <h1>Эксклюзивная мебель из массива дерева и металла</h1>
+                <p>Создаём уникальные обеденные зоны, гарнитуры и элементы интерьера по вашим размерам с гарантией качества.</p>
                 <div class="hero-actions">
-                    <a href="#contacts" class="btn btn-primary">Заказать консультацию</a>
-                    <a href="#catalog" class="btn btn-secondary">Смотреть работы</a>
+                    <a href="#contacts" class="btn btn-primary">Заказать расчёт</a>
+                    <a href="#catalog" class="btn btn-secondary">Смотреть каталог</a>
                 </div>
             </div>
         </section>
@@ -42,12 +50,12 @@
         <section id="about" class="about-section">
             <div class="container">
                 <div class="section-title">
-                    <span>Наша история</span>
-                    <h2>Эстетика и долговечность в каждой детали</h2>
+                    <span>Наша философия</span>
+                    <h2>Эстетика и долговечность</h2>
                 </div>
                 <article class="about-card">
                     <h3>Мастерская Тоқабай Нұрали</h3>
-                    <p>Мы сочетаем традиционные ручные техники обработки массива дуба, карагача и ясеня с современными инженерными решениями. Наша цель — создавать не просто предметы интерьера, а семейные ценности, сохраняющие свой вид десятилетиями.</p>
+                    <p>Мы сочетаем традиции столярного искусства с современными стандартами проектирования. Каждое изделие разрабатывается по индивидуальному проекту с использованием цельного массива дуба, карагача и ясеня.</p>
                 </article>
             </div>
         </section>
@@ -57,66 +65,76 @@
             <div class="container">
                 <div class="section-title">
                     <span>Портфолио</span>
-                    <h2>Избранные категории</h2>
+                    <h2>Каталог изделий</h2>
                 </div>
                 <div class="catalog-grid">
                     <article class="catalog-card">
                         <div class="card-image">
-                            <img src="https://images.unsplash.com/photo-1530018607912-eff2daa1bac4?w=600&q=80" alt="Стол из массива дуба с текстурным краем" width="400" height="300">
+                            <img src="https://images.unsplash.com/photo-1530018607912-eff2daa1bac4?w=600&q=80" alt="Стол из массива дуба с текстурным краем">
                         </div>
                         <div class="card-content">
-                            <h3>Столы из массива с Live Edge</h3>
-                            <p>Уникальные обеденные и письменные столы с сохранённым естественным краем дерева и заполнением эпоксидной смолой.</p>
+                            <h3>Столы из массива (Live Edge)</h3>
+                            <p>Обеденные и письменные столы с естественным сохранённым краем дерева и заливкой смолой.</p>
                         </div>
                     </article>
 
                     <article class="catalog-card">
                         <div class="card-image">
-                            <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80" alt="Современный мягкий диван с деревянными элементами" width="400" height="300">
+                            <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80" alt="Современный мягкий диван с деревянным каркасом">
                         </div>
                         <div class="card-content">
                             <h3>Мягкая мебель и каркасы</h3>
-                            <p>Диваны, кресла и изголовья кроватей на прочном металлическом или деревянном основании с премиальным текстилем.</p>
+                            <p>Диваны и кресла на металлическом или деревянном каркасе с износостойким текстилем.</p>
+                        </div>
+                    </article>
+
+                    <article class="catalog-card">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1581783342308-f792dbdd27c5?w=600&q=80" alt="Деревянный стеллаж и зоны хранения">
+                        </div>
+                        <div class="card-content">
+                            <h3>Стеллажи и тумбы</h3>
+                            <p>Системы хранения в стиле лофт и минимализм для дома и офисных пространств.</p>
                         </div>
                     </article>
                 </div>
             </div>
         </section>
 
-        <!-- Custom / Advantages Section -->
+        <!-- Custom Advantages Section -->
         <section id="custom" class="advantages-section">
             <div class="container">
                 <div class="section-title">
                     <span>Преимущества</span>
-                    <h2>Почему выбирают Tokabai Studio</h2>
+                    <h2>Мебель на заказ</h2>
                 </div>
                 <div class="advantages-grid">
                     <article class="advantage-item">
                         <div class="adv-number">01</div>
-                        <h3>Индивидуальный 3D-проект</h3>
-                        <p>Визуализируем ваше будущее изделие в интерьере до начала производства с точностью до миллиметра.</p>
+                        <h3>3D-визуализация</h3>
+                        <p>Точный эскиз с учётом геометрии вашего пространства перед запуском в производство.</p>
                     </article>
                     <article class="advantage-item">
                         <div class="adv-number">02</div>
-                        <h3>Отборные материалы</h3>
-                        <p>Используем только сухую древесину 8% влажности и экологичные немецкие масла с твердым воском.</p>
+                        <h3>Сухая древесина 8%</h3>
+                        <p>Используем только сухую древесину и экологичные защитные масла с твёрдым воском.</p>
                     </article>
                     <article class="advantage-item">
                         <div class="adv-number">03</div>
-                        <h3>Полный цикл</h3>
-                        <p>Берем на себя всё: от снятия замеров и проектирования до аккуратной доставки и монтажа у вас дома.</p>
+                        <h3>Доставка и монтаж</h3>
+                        <p>Бережная транспортировка и сборка квалифицированными мастерами.</p>
                     </article>
                 </div>
             </div>
         </section>
 
-        <!-- Contacts / Form Section -->
+        <!-- Contacts Section -->
         <section id="contacts" class="contacts-section">
             <div class="container">
                 <div class="contact-box">
                     <div class="section-title">
-                        <span>Свяжитесь с нами</span>
-                        <h2>Заказать индивидуальный расчёт</h2>
+                        <span>Заявка</span>
+                        <h2>Рассчитать стоимость</h2>
                     </div>
                     <form action="#" method="post" class="booking-form">
                         <div class="form-group">
@@ -125,11 +143,11 @@
                         </div>
                         <div class="form-group">
                             <label for="email">Ваш Email</label>
-                            <input type="email" id="email" name="email" required placeholder="name@domain.kz">
+                            <input type="email" id="email" name="email" required placeholder="tokabai@example.kz">
                         </div>
                         <div class="form-group">
-                            <label for="message">Пожелания к проекту (размеры, материал, стиль)</label>
-                            <textarea id="message" name="message" rows="4" required placeholder="Здравствуйте! Нужен обеденный стол из карагача размером 200х90 см..."></textarea>
+                            <label for="message"> Описание заказа или размеры</label>
+                            <textarea id="message" name="message" rows="4" required placeholder="Нужен обеденный стол из дуба 180х90 см..."></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary btn-block">Отправить заявку</button>
                     </form>
@@ -140,12 +158,12 @@
 
     <footer class="site-footer">
         <div class="container footer-container">
-            <div class="footer-info">
+            <div>
                 <a href="#" class="logo">TOKABAI<span>.STUDIO</span></a>
-                <p>Изготовление авторской мебели из массива дерева и металла.</p>
+                <p>Изготовление авторской мебели в Алматы.</p>
             </div>
-            <div class="footer-contacts">
-                <p><strong>Телефон:</strong> +7 (700) 000-00-00</p>
+            <div>
+                <p><strong>Тел:</strong> +7 (700) 000-00-00</p>
                 <p><strong>Адрес:</strong> г. Алматы, пр. Райымбека, 212</p>
             </div>
         </div>
